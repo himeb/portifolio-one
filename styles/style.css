@@ -181,6 +181,33 @@ body{
     font-weight: 400;
 }
 
+@media (max-width: 1600px ){
+    .cabecalho{
+        padding: 5%;
+        border-bottom: 1px dotted var(--cor-primaria-hover);
+    }
+
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo{
+        width: auto;
+    }
+
+    .icones{
+        width: 100%;
+        padding-top: 5%;
+        border-top: 1px dotted var(--cor-primaria-hover);
+    }
+
+    .icones__bottons{
+        gap: 5px;
+    }
+
+}
+
 @media (max-width: 1200px ){
     .cabecalho{
         padding: 5%;
@@ -207,6 +234,7 @@ body{
     }
 
     .icones{
+        width: 100%;
         justify-content: center;
         align-items: center;
         padding-top: 10%;
