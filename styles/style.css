@@ -143,6 +143,7 @@ body{
 
 .apresentacao__conteudo__bottons__imagem:hover{
     scale: 1.5;
+    background-color: var(--cor-terciaria);
 }
 
 .apresentacao__conteudo__imagem{
@@ -169,6 +170,11 @@ body{
 
 .icones__bottons__imagem{
     border-radius: 25%;
+}
+
+.icones__bottons__imagem:hover{
+    scale: 1.1;
+    filter: brightness(1.5);
 }
 
 .rodape{
